@@ -100,3 +100,7 @@ li {
   .project5image:hover {
     opacity: 30%;
   }
+
+  .work-images {
+    display: flex;
+  }
