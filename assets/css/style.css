@@ -45,22 +45,31 @@ img {
     margin-top: 10px;
 }
 
+.container {
+    text-align: center;
+    height: 200px;
+    width: 400px;
+}
+
 .project1 {
+    background-image: url(../images/project1-thumbnail.png);
     display: block;
     border: solid 5px #336d77;
     margin: 20px;
 }
 
-.project2 {
-    display: inline;
-    border: solid 5px #336d77;
-    margin: 20px;
-    margin-right: 5px;
-}
-
+.project2,
 .project3 {
     display: inline;
     border: solid 5px #336d77;
     margin: 20px;
-    margin-left: 5px;
+    padding: 20px;
+  }
+  
+.project2 {
+    background-image: url(*);
+}
+
+.project3 {
+    background-image: url(*);
 }
