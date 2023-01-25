@@ -11,9 +11,9 @@
 
 Checkout hover effects!
 
-<img src="./assets/demo-images/normal.png" alt="Demo Image 1" width="150" height="300">
-<img src="./assets/demo-images/hover1.png" alt="Demo Image 1" width="150" height="300">
-<img src="/assets/demo-images/hover2.png" alt="Demo Image 1" width="150" height="300">
+<img src="./assets/demo-images/normal.png" alt="Demo Image 1" width="400" height="400">
+<img src="./assets/demo-images/hover1.png" alt="Demo Image 1" width="400" height="400">
+<img src="/assets/demo-images/hover2.png" alt="Demo Image 1" width="400" height="400">
 
 ## Credit
 ### Resources
