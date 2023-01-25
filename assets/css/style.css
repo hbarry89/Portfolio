@@ -43,14 +43,14 @@ img {
 
 .container {
     text-align: center;
-    height: 300px;
+    height: 500px;
     width: 400px;
 }
 
 .project1 {
-    display: block;
     border: solid 5px #336d77;
     margin: 20px;
+    height: 174px;
 }
 
 .project1image:hover {
@@ -67,9 +67,10 @@ img {
   }
   
 .project2 {
-    background-image: url(*);
+
 }
 
-.project3 {
-    background-image: url(*);
+#project-image {
+    height: 100%;
+    width: 100%;
 }

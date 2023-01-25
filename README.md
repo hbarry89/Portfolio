@@ -14,6 +14,7 @@
 ### Resources
 - Bootcamp Materials
 - W3 Schools
+- AskBCS Learning Assistant
 
 ### Applications Used
 - VS Code
