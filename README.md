@@ -18,4 +18,8 @@
 ### Applications Used
 - VS Code
 
+### Assets
+- Reset Code: Bootcamp Materials Unit 2 Activity 11. 
+- Avatar Photo: By Sidney lima from [Pexels](https://www.pexels.com/photo/silhouette-photography-of-woman-2011639/).
+
 ## Thank you for visiting!
