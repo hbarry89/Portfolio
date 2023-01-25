@@ -8,14 +8,23 @@ body {
     background-color: gray;
 }
 
+h1 {
+    padding: 5px;
+    font-size: x-large;
+    background-color: #1f4248;
+}
+
 h1,
 h2 {
     color: #1f2326;
 }
 
 h1,
+nav,
+ul,
 li {
     display: inline;
+    justify-content: space-between;
 }
 
 .avatar {
@@ -26,11 +35,6 @@ li {
 img {
     position: relative;
     left: 600px;
-}
-
-.name {
-    font-size: x-large;
-    background-color: #1f4248;
 }
 
 .card {
