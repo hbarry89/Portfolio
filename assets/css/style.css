@@ -6,7 +6,7 @@
 
 body {
     padding: 10px;
-    background-color: lightgray;
+    background-color: darkgray;
 }
 
 h1 {
@@ -32,11 +32,6 @@ li {
     background-color: #1f2326;
 }
 
-.container {
-    display: block;
-    text-align: center;
-}
-
 .card1 {
     position: relative;
     border: solid 5px #336d77;
@@ -47,7 +42,7 @@ li {
 
 .tag1 {
     position: absolute;
-    top: 100px;
+    top: 125px;
     left: 0px;
     width: 100px;
     height: 50px;
@@ -63,25 +58,19 @@ li {
     width: 100%; 
 }
 
-#project-image2,
-#project-image3 {
-    display: inline;
-
-}
-
 .card2,
 .card3 {
     position: relative;
     border: solid 5px #336d77;
     margin: 20px;
-    width: 210px;
-    height: 120px;
+    width: 200px;
+    height: 105px;
 }
 
 .tag2,
 .tag3 {
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: 0px;
     width: 100px;
     height: 50px;
@@ -91,13 +80,15 @@ li {
     z-index: 100;
   }
 
-.project1image:hover,
-.project2image:hover,
-.project3image:hover {
-    background-color:white;
-    opacity: 50%;
-}
-
-.smallcardscontainer {
-    display: inline;
-}
+  #project-image2,
+  #project-image3 {
+      display: inline;
+      height: 100%;
+      width: 100%; 
+  }
+  
+  .project1image:hover,
+  .project2image:hover,
+  .project3image:hover {
+    opacity: 30%;
+  }
