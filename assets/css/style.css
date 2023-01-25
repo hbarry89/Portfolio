@@ -59,7 +59,9 @@ li {
 }
 
 .card2,
-.card3 {
+.card3,
+.card4,
+.card5 {
     position: relative;
     border: solid 5px #336d77;
     margin: 20px;
@@ -68,7 +70,9 @@ li {
 }
 
 .tag2,
-.tag3 {
+.tag3,
+.tag4,
+.tag5 {
     position: absolute;
     top: 40px;
     left: 0px;
@@ -81,7 +85,9 @@ li {
   }
 
   #project-image2,
-  #project-image3 {
+  #project-image3,
+  #project-image4,
+  #project-image5 {
       display: inline;
       height: 100%;
       width: 100%; 
@@ -89,6 +95,8 @@ li {
   
   .project1image:hover,
   .project2image:hover,
-  .project3image:hover {
+  .project3image:hover,
+  .project4image:hover,
+  .project5image:hover {
     opacity: 30%;
   }
