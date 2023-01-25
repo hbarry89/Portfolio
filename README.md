@@ -10,10 +10,10 @@
 [Click here](https://hbarry89.github.io/Portfolio/) to navigate to the live link of this repository.
 
 Checkout hover effects!
-![image](./assets/demo-images/normal.png)
-![image](./assets/demo-images/hover1.png)
-![image](./assets/demo-images/hover2.png)
 
+<img src="./assets/demo-images/normal.png" alt="Demo Image 1" width="200" height="100">
+<img src="./assets/demo-images/hover1.png" alt="Demo Image 1" width="200" height="100">
+<img src="/assets/demo-images/hover2.png" alt="Demo Image 1" width="200" height="100">
 
 ## Credit
 ### Resources
