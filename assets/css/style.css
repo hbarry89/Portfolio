@@ -32,11 +32,6 @@ li {
     background-color: #1f2326;
 }
 
-img {
-    position: relative;
-    left: 600px;
-}
-
 .card {
     margin-top: 10px;
 }
@@ -50,7 +45,23 @@ img {
 .project1 {
     border: solid 5px #336d77;
     margin: 20px;
-    height: 174px;
+}
+
+.project1 .tag1 {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #336d77;
+    font-size: small;
+  }
+
+  #project-image {
+    display: block;
+    height: 100%;
+    width: 100%; 
 }
 
 .project1image:hover {
@@ -70,7 +81,3 @@ img {
 
 }
 
-#project-image {
-    height: 100%;
-    width: 100%;
-}
