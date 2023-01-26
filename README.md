@@ -9,11 +9,19 @@
 
 [Click here](https://hbarry89.github.io/Portfolio/) to navigate to the live link of this repository.
 
-Checkout hover effects!
+Checkout hover effects:
 
-<img src="./assets/demo-images/normal.png" alt="Demo Image 1" width="400" height="400">
-<img src="./assets/demo-images/hover1.png" alt="Demo Image 1" width="400" height="400">
-<img src="/assets/demo-images/hover2.png" alt="Demo Image 1" width="400" height="400">
+<img src="./assets/demo-images/normal.png" alt="Demo Image 1" width="300" height="300">
+<img src="./assets/demo-images/hover1.png" alt="Demo Image 1" width="300" height="300">
+<img src="/assets/demo-images/hover2.png" alt="Demo Image 1" width="300" height="300">
+
+Checkout responsive layout:
+
+- On desktop:
+<img src="./assets/demo-images/response1.png" alt="Demo Image 1" width="300" height="300">
+
+- On a device:
+<img src="/assets/demo-images/response2.png" alt="Demo Image 1" width="300" height="300">
 
 ## Credit
 ### Resources
