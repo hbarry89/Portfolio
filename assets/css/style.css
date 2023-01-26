@@ -112,7 +112,7 @@ nav ul {
     display: flex;
 }
 
-/* Ued media query to support responsive layout to be viewd in different screens and devices. Used "block" in media query to reverse "flex" in line 110 */
+/* Ued media query to support responsive layout to be viewd in different screens and devices. Used "block" in media query to reverse "flex" in line 112 */
 @media screen and (max-width: 992px) {
     .work-images {
         display: block;
