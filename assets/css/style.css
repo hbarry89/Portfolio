@@ -1,7 +1,8 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; /* multiple web safe fonts in case one or two do not work */
     color: #1f4248;
     line-height: 50px;
+    box-sizing: border-box;
 }
 
 body {
@@ -27,6 +28,10 @@ li {
     display: inline;
 }
 
+nav ul {
+    float: right;
+}
+
 .avatar {
     margin-top: 10px;
     background-color: #1f2326;
@@ -37,7 +42,7 @@ li {
     border: solid 5px #336d77;
     margin: 20px;
     width: 400px;
-    height: 193px;
+    height: 200;
 }
 
 .tag1 {
@@ -69,6 +74,7 @@ li {
     height: 105px;
 }
 
+/* z-index created two layers so hover effect is not applied on border and tags */
 .tag2,
 .tag3,
 .tag4,
@@ -82,25 +88,45 @@ li {
     background-color: #336d77;
     font-size: small;
     z-index: 100;
-  }
+}
 
-  #project-image2,
-  #project-image3,
-  #project-image4,
-  #project-image5 {
+#project-image2,
+#project-image3,
+#project-image4,
+#project-image5 {
       display: inline;
       height: 100%;
       width: 100%; 
-  }
-  
-  .project1image:hover,
-  .project2image:hover,
-  .project3image:hover,
-  .project4image:hover,
-  .project5image:hover {
-    opacity: 30%;
-  }
+}
 
-  .work-images {
+/* Opacity degree changes how dark or light the hover effect is */
+.project1image:hover,
+.project2image:hover,
+.project3image:hover,
+.project4image:hover,
+.project5image:hover {
+    opacity: 30%;
+}
+
+.work-images {
     display: flex;
-  }
+}
+
+/* Ued media query to support responsive layout to be viewd in different screens and devices. Used "block" in media query to reverse "flex" in line 110 */
+@media screen and (max-width: 992px) {
+    .work-images {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .work-images {
+        display: block;
+    }
+}
+  
+@media screen and (max-width: 576px) {
+    .work-images {
+        display: block;
+    }
+}
